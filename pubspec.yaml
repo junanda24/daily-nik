@@ -1,0 +1,22 @@
+name: daily_nik
+description: >-
+  Decoder & validator NIK (Nomor Induk Kependudukan) murni-Dart tanpa
+  dependensi: provinsi (38 provinsi), tanggal lahir, jenis kelamin, umur,
+  format tampil, dan versi tersamarkan — semua dihitung lokal, tanpa server.
+version: 0.1.0
+homepage: https://github.com/junanda24/daily-nik
+repository: https://github.com/junanda24/daily-nik
+issue_tracker: https://github.com/junanda24/daily-nik/issues
+topics:
+  - nik
+  - ktp
+  - indonesia
+  - identity
+  - validation
+
+environment:
+  sdk: ^3.0.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0

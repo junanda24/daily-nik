@@ -1,0 +1,22 @@
+# Dart
+.dart_tool/
+.packages
+build/
+# Pub
+.pub-cache/
+.pub/
+# IDE
+.idea/
+.vscode/
+*.iml
+# OS
+.DS_Store
+Thumbs.db
+# Secrets (never commit)
+.env*
+*.pem
+*.key
+credentials*
+
+# Pub lockfile (packages do not commit this)
+pubspec.lock
